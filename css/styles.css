@@ -196,6 +196,14 @@ section{
     padding: 125px 0;
 }
 
+#contact .contact-text{
+    margin-top: 50px;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
 #contact .row .col-lg-2 h5{
     color: #142850;
     font-family: 'Montserrat', sans-serif;
