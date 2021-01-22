@@ -7,10 +7,10 @@ body::-webkit-scrollbar{ width: 0.75rem; }
 
 body::-webkit-scrollbar-track{ background: #1e1e24; }
 
-body::-webkit-scrollbar-thumb{ 
+body::-webkit-scrollbar-thumb{
     background: #eb4d4b;
     border-left: 1.5px solid;
-} 
+}
 
 /* Navbar */
 
@@ -126,8 +126,6 @@ section{
 
 /* ABOUT */
 
-/* ABOUT */
-
 #about p{
     margin: 50px 0;
     font-size: 1.5rem;
@@ -183,6 +181,7 @@ section{
 #projects img{
     border-radius: 3px;
     box-shadow: 6px 6px 10px black;
+    transition: transform 0.3s ease;
 }
 
 #projects img:hover{
@@ -272,9 +271,9 @@ footer{
 
 @media (max-width: 1198px)
 {
-    .intro-text{ padding: 0; }   
+    .intro-text{ padding: 0; }
 
-    .nav-link{ opacity: 1; }   
+    .nav-link{ opacity: 1; }
 }
 
 @media (max-width:980px)
@@ -288,5 +287,5 @@ footer{
         opacity: 1;
         margin-left: 20px;
         margin-right: 20px;
-    }   
+    }
 }
