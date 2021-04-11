@@ -159,6 +159,11 @@ section{
 
 /* Project */
 
+#projects .col-lg-5
+{
+    margin-top: 30px;
+}
+
 #projects .card{
     border: none;
 }
